@@ -1,0 +1,243 @@
+/* reglas de estilo para el sitio*/
+
+/*fuentes*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #8f8b72;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #8f8b72;
+  justify-content: center;
+  align-items: center;
+}
+
+/*ordena tus cosas, Chio*/
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Gallery */
+.gallery {
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  transform: scale (10%10%);
+  background-color: #bcddc7;
+}
+
+/* Trailer */
+.trailer {
+  width: 100%;
+  height: auto;
+
+  background-color: #bcddc7;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.trailer__top {
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.trailer__top__left,
+.trailer__top__right {
+  width: 100%;
+
+  position: relative;
+
+  z-index: 5;
+}
+/* Nook*/
+.trailer__top__left {
+  transform: translate(-1%, -6%) scale(0.8);
+}
+/* Canela*/
+.trailer__top__right {
+  transform: translate(-1%, -6%) scale(0.8);
+}
+
+.trailer__top__center {
+  display: flex;
+  flex-direction: column;
+}
+
+.trailer__top__center__video {
+  width: 100%;
+  height: calc(60vw / 2);
+
+  margin-bottom: 1rem;
+}
+
+.trailer__top__center__description {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.trailer__bottom {
+  color: white;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+}
+
+/*EXPLORE*/
+
+.head {
+  width: 100%;
+  height: auto;
+  transform: translate(200%, 100%) scale(2, 2);
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.gallery__description {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #8f8b72;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery__bottom {
+  width: 80%;
+  height: auto;
+  transform: translate(10%, -6%) scale(0.9);
+}
+
+.bottom {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+.background__bottom {
+  width: 1024px;
+  height: 470px;
+  color: #a6d1e1;
+}
+
+/*CREATE*/
+
+.create {
+  width: 100%;
+  height: auto;
+  transform: translate(0.1%, -1%) scale(0.4, 0.4);
+  align-items: center;
+}
+
+.location__character,
+.location__flowers,
+.create__description{
+  width: 100%;
+
+  position: relative;
+
+  z-index: 5;
+}
+
+.location__character {
+  transform: translate(-1%, -1%) scale(0.6);
+  display: flex;
+}
+
+.location__palmtree {
+  transform: translate(10%, -50%) scale(1.2);
+  display: flex;
+}
+
+.create__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.small__img {
+  width: auto;
+}
+
+.twitter {
+  background-image: url(../img/textura.png);
+  position: relative;
+  height: 200px;
+  width: 200px;
+  bottom: 200px;
+  z-index: 50px;
+}
+
+.twitter1 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  bottom: 200px;
+  z-index: 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+
+
+small {
+    padding: 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #89d1e8;
+}
+
+
+.flowers{
+     transform: translate(150%, 20%) scale(1.2);
+  display: flex;
+    align-items: center;
+    
+}
